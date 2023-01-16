@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-with open("Portfolio/resume-app-main/style.css") as f:
+with open("resume-app-main/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
@@ -11,7 +11,7 @@ st.write('''
 ##### *Portfolio* 
 ''')
 
-image = Image.open('/Users/adhiau/Desktop/Portfolio/resume-app-main/Profile.jpg')
+image = Image.open('resume-app-main/Profile.jpg')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
