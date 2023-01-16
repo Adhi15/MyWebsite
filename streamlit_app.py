@@ -170,7 +170,7 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-txt('**Smart Traffic Light Detection**', 'http://codes.bio/abcpred/')
+txt('**Smart Traffic Light Detection**', '')
 txt('**A Data analytics case study**', '')
 st.markdown('''
 https://github.com/Adhi15/A-Data-Analytics-Case-study 
