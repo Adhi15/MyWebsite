@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-with open("/Users/adhiau/Desktop/Portfolio/resume-app-main/style.css") as f:
+with open("Portfolio/resume-app-main/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
