@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+# https://adhi15-mywebsite-streamlit-app-k54ce4.streamlit.app/
+
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
@@ -170,8 +172,29 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-txt('**Smart Traffic Light Detection**', '')
-txt('**A Data analytics case study**', '')
+txt('**DETECTION OF MALICIOUSLY TAMPERED MEDICAL IMAGES USING ANOMOLY DETECTION**', '')
+txt('**SMART TRAFFIC LIGHT DETECTION**', '')
+st.markdown('''
+https://github.com/Adhi15/Smart-Traffic-Light-Control-System/tree/main 
+''')
+st.markdown('''
+Sri Sivasubramaniya Nadar College of Engineering conducted a 24 hour hackathon called Hack n Tackle in 2020. 
+In which me and a group of three joined. The project we worked on and presented in that hackathon was called Smart Traffic control system. 
+In the hackathon there were 3 reviews by mentors who were a mix of students, teachers and people from various industries and there was a final review which was conducted by top industry personalties. 
+After the final review they selected 10 teams to go on for the next round to present in front of a panel of judges.
+Our team project was selected for the top 10 teams. But unfortunately we were out of the competition after that. 
+It was an interesting first experience for me to work as a team on something without any sleep which became a frequent thing nowadays. 
+In India the traffic lights are either controlled manually or they have a specific timer that is default in every region or intersection. 
+The signals donot account to the traffic and rather give more importance to time. 
+- Traffic being a major problem in India. Which is likely to affect the daily livelihood of people. Our project proposes althering the traffic light timer based on traffic in the particular lane rather than keeping a default timer. 
+- For example if there is a 4 way junction. Namely a,b,c and d (representing each lane in the four way junction). 
+- Lets say there are 10 vehincles in a, 8 vehicles in b, 6 vehicles in c and 15 vehicles in d. 
+- Our model will first identify the number of vehicles in each lane and present those numbers to our data structure algorithm which then calculates the greenlight time needed in each lane. 
+- I along with a friend worked on the detection on the vehicles in each lane. 
+- Our job was to present the number of vehicles in a each lane to the other two group members who further used the numbers to output the green light time.
+- We used packages like opencv and PyTorch.
+''')
+txt('**A DATA ANALYTICS CASE STUDY**', '')
 st.markdown('''
 https://github.com/Adhi15/A-Data-Analytics-Case-study 
 ''')
@@ -181,24 +204,24 @@ And i had taken that course. As part of the course I was tasked to do a capstone
 The problem statement given to me was, Bellabeat a fictional company has tasked me to focus on one of Bellabeat products and analyze smart device data to gain insight into how consumers are using their smart devices. 
 This is my capstone project for the Google Data Analytics Professional Certificate. As a novice who was learning about data visualisation and data cleaning it was a challenge task and an interesting project to spend my time in. 
 ''')
-txt('**SYN-Flood Attack simulation**', '')
-txt('**Analyzing NFT indexing caused by a large-scale social media platform**', '')
-txt('**Predicting Image Sequencing**', '')
-txt('**Semantic segmentation in a weakly supervised setting with only image-level labels**', '')
-txt('**Fake News detection**', '')
+txt('**SYN-FLOOD ATTACK SIMULATION AND DETECTION**', '')
+txt('**ANALYZING NFT INDEXING CAUSED BY A LARGE-SCALE SOCIAL MEDIA PLATFORM**', '')
+txt('**PREDICTING IMAGE SEQUENCING**', '')
+txt('**SEMANTIC SEGMENTATION IN A WEAKLY SUPERVISED SETTING WITH ONLY IMAGE-LEVEL LABELS**', '')
+txt('**FAKE NEWS DETECTION**', '')
 
 
 #####################
 st.markdown('''
 ## Skills
 ''')
-txt3('Programming', '`Python`, `R`, `C`, `C++`, `HTML`, `CSS`, `JAVA`')
-txt3('Data processing', '`SQL`, `pandas`, `numpy`')
-txt3('Data visualization', '`matplotlib`, `seaborn`, `ggplot2`, `Tableau`')
-txt3('Machine Learning', '`scikit-learn`')
-txt3('Deep Learning', '`TensorFlow`, `opencv`, `Pytorch`')
-txt3('Web development', '`HTML`, `CSS`')
-txt3('Model deployment', '`streamlit`')
+txt3('**Programming**', '`Python`, `R`, `C`, `C++`, `HTML`, `CSS`, `JAVA`')
+txt3('**Data processing**', '`SQL`, `pandas`, `numpy`')
+txt3('**Data visualization**', '`matplotlib`, `seaborn`, `ggplot2`, `Tableau`')
+txt3('**Machine Learning**', '`scikit-learn`')
+txt3('**Deep Learning**', '`TensorFlow`, `opencv`, `Pytorch`')
+txt3('**Web development**', '`HTML`, `CSS`')
+txt3('**Model deployment**', '`streamlit`')
 
 #####################
 st.markdown('''
