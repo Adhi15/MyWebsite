@@ -169,7 +169,7 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-txt('**DETECTION OF MALICIOUSLY TAMPERED MEDICAL IMAGES USING ANOMOLY DETECTION**', '')
+txt('**DETECTION OF MALICIOUSLY TAMPERED CT SCANS USING ANOMOLY DETECTION**', '')
 txt('**SMART TRAFFIC LIGHT DETECTION**', '')
 st.markdown('''
 https://github.com/Adhi15/Smart-Traffic-Light-Control-System/tree/main 
