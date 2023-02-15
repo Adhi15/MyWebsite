@@ -18,9 +18,8 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Hi, my name is Adhi. I am 22 years old. Currently pursuing my master at SMU,Singapore. 
+- Hi, my name is Adhi. Currently pursuing my master at SMU, Singapore. 
 - I am an enthusiastic and high energy driven professional aiming to land a role in data science, data analytics or software development with an organization of high repute offering challenging work profile in the IT industry. Have strong verbal and written communication skills.
-- DOB: 15th January 2001
 - Gmail: adhi15au@gmail.com
 ''')
 
