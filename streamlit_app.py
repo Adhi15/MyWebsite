@@ -98,10 +98,10 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Masters of Science** (Computing, Data Science and Engineering Research track), *Singapore Management University*, Sinagpore',
+txt('**Masters of Science** (Computing, Data Science and Engineering Research track), *Singapore Management University*, Singapore',
 '2022-current')
 
-txt('**Bachelors of Engeering** (Computer Science and Engineering), *Sri Venkateswara Coellege of Engineering*, India',
+txt('**Bachelors of Engeering** (Computer Science and Engineering), *Sri Venkateswara College of Engineering*, India',
 '2018-2022')
 st.markdown('''
 - Graduated with First Class Honors.
